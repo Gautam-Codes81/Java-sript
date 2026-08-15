@@ -15,7 +15,7 @@
 
       });
       console.log("gk");
-      console.log("..");
+      
 
 
       // let p = document.querySelector("p");
