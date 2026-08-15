@@ -8,16 +8,17 @@
 //     p.style.color = "green"
 //    });
 
-    //   let p   = document.querySelector("p")
+      let p   = document.querySelector("p")
 
-    //   p.addEventListener("dblclick", function(){
-    //   p.style.color = "yellow";
+      p.addEventListener("dblclick", function(){
+      p.style.color = "red";
 
-    //   });
+      });
+      console.log("gk");
 
-      let p = document.querySelector("p");
-      function dblclick(){
-        p.style.color = "yelow";
-      }
-      p.addEventListener("dblclick", dblclick);
-      p.removeEventListener("dblclick", dblclick);
+      // let p = document.querySelector("p");
+      // function dblclick(){
+      //   p.style.color = "yelow";
+      // }
+      // p.addEventListener("dblclick", dblclick);
+      // p.removeEventListener("dblclick", dblclick);
