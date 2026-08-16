@@ -8,17 +8,20 @@
 //     p.style.color = "green"
 //    });
 
-      let p   = document.querySelector("p")
+      // let p   = document.querySelector("p")
 
-      p.addEventListener("dblclick", function(){
-      p.style.color = "red";
+      // p.addEventListener("dblclick", function(){
+      // p.style.color = "red";
 
-      });
-      console.log("gk");
-      console.log("rk");
+      // });
+      
+      // let p = document.querySelector("p");
+      // p.addEventListener("dblclick",function(){
+      //       p.style.color = "blue";
+      // })
 
       
-
+      // CLICK
 
       // let p = document.querySelector("p");
       // function dblclick(){
@@ -26,3 +29,22 @@
       // }
       // p.addEventListener("dblclick", dblclick);
       // p.removeEventListener("dblclick", dblclick);
+
+// INPUT
+
+      // let inp = document.querySelector("input");
+      // inp.addEventListener("input", function(dets){
+      //       if(dets.data !== null){
+      //             console.log(dets.data);
+      //       }
+      // });
+
+       let sel = document.querySelector("select");
+       let device = document.querySelector("#device")
+
+       sel.addEventListener("change", function(dets){
+            // console.log(dets.target.value);
+            device.textContent = `${dets.target.value} Device
+            Selected`;
+
+       });
