@@ -39,12 +39,23 @@
       //       }
       // });
 
-       let sel = document.querySelector("select");
-       let device = document.querySelector("#device")
+//**************************************8 */
+      //  let sel = document.querySelector("select");
+      //  let device = document.querySelector("#device")
 
-       sel.addEventListener("change", function(dets){
-            // console.log(dets.target.value);
-            device.textContent = `${dets.target.value} Device
-            Selected`;
+      //  sel.addEventListener("change", function(dets){
+      //       // console.log(dets.target.value);
+      //       device.textContent = `${dets.target.value} Device
+      //       Selected`;
 
-       });
+      //  });
+
+      //***************************************** */
+
+      // approach
+
+let h1 = document.querySelector("h1");
+window.addEventListener("keydown",function(dets){
+      // h1.textContent = dets.key;
+      console.log(dets);
+})
