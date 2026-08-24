@@ -54,8 +54,26 @@
 
       // approaches
 
-let h1 = document.querySelector("h1");
-window.addEventListener("keydown",function(dets){
-      // h1.textContent = dets.key;
+// changing the value jaise ki A B C D jo change change ho jaye
+
+// let h1 = document.querySelector("h1");
+// window.addEventListener("keydown",function(dets){
+//       // h1.textContent = dets.key;
+//       // console.log(dets);
+//       if(dets.key === " "){
+//             h1.textContent = "SPC";
+//       }
+//       else{
+//             h1.textContent = dets.key;
+//       }
+// });
+
+let btn = document.querySelector("#btn");
+let fileinp = document.querySelector("#fileinp");
+btn.addEventListener("click",function(){
+      fileinp.click();
+});
+
+fileinp.addEventListener("change", function(dets){
       console.log(dets);
 })
