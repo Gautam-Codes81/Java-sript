@@ -75,5 +75,5 @@ btn.addEventListener("click",function(){
 });
 
 fileinp.addEventListener("change", function(dets){
-      console.log(dets.target.file[0]);
+      console.log(dets.target.file[0].name);
 })
