@@ -68,12 +68,24 @@
 //       }
 // });
 
-let btn = document.querySelector("#btn");
-let fileinp = document.querySelector("#fileinp");
-btn.addEventListener("click",function(){
-      fileinp.click();
-});
 
-fileinp.addEventListener("change", function(dets){
-      console.log(dets.target.file[0].name);
-})
+//************************************** */
+
+// let btn = document.querySelector("#btn");
+// let fileinp = document.querySelector("#fileinp");
+// btn.addEventListener("click",function(){
+//       fileinp.click();
+// });
+
+// fileinp.addEventListener("change", function(dets){
+//       console.log(dets.target.file[0].name);
+// })
+
+//*************************************** */
+
+let form = document.querySelector("form");
+let inputs = document.querySelectorAll("input");
+form.addEventListener("submit", function(dets){
+      dets.preventDefault();
+      console.log(inputs);
+});
