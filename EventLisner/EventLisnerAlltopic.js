@@ -88,4 +88,8 @@ let inputs = document.querySelectorAll("input");
 form.addEventListener("submit", function(dets){
       dets.preventDefault();
       console.log(inputs);
+
+      console.log("gk");
+      console.log("nk");
+
 });
