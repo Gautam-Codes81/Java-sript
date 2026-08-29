@@ -89,7 +89,10 @@ form.addEventListener("submit", function(dets){
       dets.preventDefault();
       console.log(inputs);
 
-      console.log("gk");
-      console.log("nk");
+      // console.log("gk");
+      // console.log("nk");
+
+      console.log("gautam");
+
 
 });
