@@ -93,6 +93,8 @@ form.addEventListener("submit", function(dets){
       // console.log("nk");
 
       console.log("gautam");
+      console.log("gautam");
+
 
 
 });
