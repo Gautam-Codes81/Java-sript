@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Management System</h1>
+
+
+    <!-- Add Student Form -->
+    <div class="form-container">
+
+        <h2>Add Student</h2>
+
+        <form id="studentForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Student Name"
+                required
+            >
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter Age"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                required
+            >
+
+            <input
+                type="number"
+                id="rollNo"
+                placeholder="Enter Roll Number"
+                required
+            >
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Enter Subject"
+                required
+            >
+
+            <button type="submit">
+                Add Student
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Student List -->
+    <div class="student-container">
+
+        <h2>Student List</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Roll No</th>
+                    <th>Subject</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="studentTableBody">
+
+                <!-- JavaScript students yahan show karega -->
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
