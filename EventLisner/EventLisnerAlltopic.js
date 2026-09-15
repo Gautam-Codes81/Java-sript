@@ -111,6 +111,11 @@ form.addEventListener("submit", function(dets){
       console.log("gautam");
       console.log("gautam");
       console.log("gautam");
+      console.log("gautam");
+      console.log("gautam");
+      console.log("gautam");
+      console.log("gautam");
+
 
 
       
